@@ -1,0 +1,566 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+#1	header
+#2	about-me
+#3	work-experience
+#4	previous-projects
+#5	technical-skill
+#6	pricing
+#7	testimonial
+#8	contact
+#9	footer
+#10	some-of-my-work
+
+
+--------------------------------------------------------------*/
+@media only screen and (max-width: 484px) {
+	.section-heading h2 {
+		font-size: 20px;
+	}
+
+	.section-heading h2:before {
+		display: none;
+	}
+
+	.section-heading h2 i {
+		display: none;
+	}
+
+
+	h3 {
+		font-size: 16px;
+	}
+}
+
+/*site-loder*/
+@media only screen and (max-width: 1100px) {
+	.loder-middle {
+		left: 37%;
+	}
+}
+
+@media only screen and (max-width: 970px) {
+	.loder-middle {
+		left: 34%;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.loder-middle {
+		left: 30%;
+	}
+}
+
+@media only screen and (max-width: 620px) {
+	.loder-middle {
+		left: 26%;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.loder-middle {
+		left: 18%;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.loder-middle {
+		left: 11%;
+	}
+}
+
+@media only screen and (max-width: 340px) {
+	.loder-middle {
+		left: 7%;
+	}
+}
+@media only screen and (max-width: 300px) {
+	.loder-middle {
+		left: 0%;
+	}
+}
+
+
+
+
+/*--------------------------------------------------------------
+#1	header
+--------------------------------------------------------------*/
+@media only screen and (max-width: 991px) {
+	header .title h1 {
+		font-size: 57px;
+    	line-height: 67px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	header .navbar button span {
+		background: red;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	header .title {
+		padding-top: 180px;
+	}
+
+	header .navbar ul:after {
+		display: none;
+	}
+
+	header .title h1 {
+		font-size: 35px;
+    	line-height: 40px;
+	}
+
+	header .title p {
+	    font-size: 18px;
+	    padding-top: 15px;
+	}
+
+	/*navigation*/
+	header #navbar {
+		background-color: #2c2b2b;
+		position: absolute;
+		left: 0;
+		width: 100%;
+	}
+
+	header .navbar button {
+		border: 1px solid #f20000;
+	}
+
+	header .navbar ul li a {
+		padding-left: 40px;
+		font-weight: normal;
+	}
+
+	header .navbar ul li a:hover,
+	header .navbar ul li.active a {
+		background: #1d1c1c !important;
+		border-bottom: 0;
+		padding-bottom: 10px;
+		z-index: 1;
+	}
+
+}
+
+@media only screen and (max-width: 330px) {
+	header .title h1 {
+		font-size: 25px;
+    	line-height: 40px;
+	}
+
+}
+
+
+
+/*--------------------------------------------------------------
+#2	about-me
+--------------------------------------------------------------*/
+@media only screen and (max-width: 1199px) {
+	.about-me .row .col img {
+		margin-top: 95px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.about-me h3 {
+		font-size: 16px;
+	}
+
+	.about-me .row .col div i {
+		width: 45px;
+		height: 45px;
+		font-size: 24px;
+		line-height: 45px;
+	}
+
+	/*lest side*/
+	.about-me .row .col:first-child {
+		padding: 0;
+	}
+
+	.about-me .row .col:first-child i {
+		right: -7px;
+	}
+
+	.about-me .row .col:first-child div {
+		padding-right: 56px;
+	}
+
+
+	/*right side*/
+	.about-me .row .col:last-child div {
+		padding-left: 56px;
+	}
+
+	.about-me .row .col:last-child i {
+		left: -7px;
+	}
+
+	.about-me .row .col:last-child {
+		padding: 0;
+	}
+
+	.about-me .row .col img {
+		margin-top: 95px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.about-me .section-heading p {
+		font-size: 16px;
+	}
+
+	.about-me .row .col:first-child {
+		text-align: left;
+		padding-left: 80px;
+	}
+
+	.about-me .row .col:first-child i {
+		left: -60px;
+	}
+
+	.about-me .row .col:last-child div {
+		padding-left: 80px;
+	}
+
+	.about-me .row .col:last-child i {
+		left: 20px;
+	}
+
+	.about-me .row .col img {
+		margin-bottom: 70px;
+	}
+
+}
+
+@media only screen and (max-width: 570px) {
+	.about-me .download-hire a {
+		background-color: #191818;
+		width: 240px;
+		height: 40px;
+		line-height: 40px;
+		display: block;
+		font-size: 14px;
+		padding: 0;
+		margin-bottom: 10px;
+	}
+
+	.about-me .download-hire i {
+		font-size: 18px;
+		left: 20px;
+	}
+}
+
+/*--------------------------------------------------------------
+#3	work-experience
+--------------------------------------------------------------*/
+@media only screen and (max-width: 991px) {
+	.work-experience .work-list h3 i,
+	.education-diploma .work-list h3 i {
+		right: -78px;
+	}
+
+	.work-experience .right h3 i,
+	.education-diploma .right h3 i  {
+		left: -75px;
+		top: 0;
+	}
+}
+
+@media only screen and (max-width: 625px) {
+	.work-experience .work-list h3,
+	.education-diploma .work-list h3 {
+		font-size: 14px;
+	}
+
+	.work-experience .work-list h3:after,
+	.education-diploma .work-list h3:after {
+		right: -36px;
+		top: 0;
+	}
+}
+
+@media only screen and (max-width: 545px) {
+	.work-experience ul:before,
+	.education-diploma ul:before {
+		content: "";
+		display: none;
+	}
+
+	.work-experience ul li .col,
+	.education-diploma ul li .col {
+		width: 100%;
+		padding: 0;
+	}
+
+	.work-experience .work-list .thumbnail,
+	.education-diploma .work-list .thumbnail {
+		text-align: left;
+	}
+
+	.work-experience .work-list h3,
+	.education-diploma .work-list h3 {
+		margin-left: -16px;
+	}
+
+	.work-experience .work-list h3 i,
+	.education-diploma .work-list h3 i {
+		display: none;
+	}
+
+	.work-experience .work-list h3:after,
+	.education-diploma .work-list h3:after {
+		display: none;
+	}
+}
+
+
+
+
+/*--------------------------------------------------------------
+#4	previous-projects
+--------------------------------------------------------------*/
+@media only screen and (max-width: 767px) {
+	.previous-projects {
+		background: none;
+		background-color: #1c1b1c;
+	}
+
+	.previous-projects .row div.col:first-child,
+	.previous-projects .row div.col:nth-child(2) {
+		margin-bottom: 80px;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+	.previous-projects .icon {
+		width: 100px;
+		height: 100px;
+		line-height: 110px;
+		border: 1px solid #fff;
+	}
+
+	.previous-projects i {
+		width: 55px;
+		height: 55px;
+		line-height: 55px;
+		font-size: 30px;
+	}
+
+	.previous-projects .icon + p {
+		font-size: 30px;
+		margin-top: 20px;
+	}
+}
+
+
+
+/*--------------------------------------------------------------
+#5	technical-skill
+--------------------------------------------------------------*/
+@media only screen and (max-width: 1199px) {
+	.technical-skill .col div:nth-child(2) {
+	    left: 55%;
+	}
+
+	#circle1 canvas,
+	#circle2 canvas,
+	#circle3 canvas,
+	#circle4 canvas {
+		width: 170px !important;
+		height: 170px !important;
+	}
+
+	.technical-skill .row i {
+		width: 48px;
+		height: 48px;
+		line-height: 48px;
+	}
+
+	.technical-skill .col div span {
+		display: block;
+		font-size: 24px;
+		color: #191818;
+		padding-top: 15px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.technical-skill .col div:nth-child(2) {
+		position: absolute;
+		left: 50%;
+		top: 40%;
+
+		-webkit-transform: translate(-50%, -40%);
+		-moz-transform: translate(-50%, -40%);
+		-ms-transform: translate(-50%, -40%);
+		-o-transform: translate(-50%, -40%);
+		transform: translate(-50%, -40%);
+	}
+
+	.technical-skill .row .col {
+		margin-bottom: 100px;
+	}
+
+	.technical-skill .row .col:last-child {
+		margin-bottom: 0;
+	}
+
+}
+
+
+
+/*--------------------------------------------------------------
+#6	pricing
+--------------------------------------------------------------*/
+@media only screen and (max-width: 991px) {
+	.pricing .row .col {
+		padding: 0 5px;
+	}
+
+	.pricing ul {
+		padding: 35px 0 0 20%;
+	}
+
+	.pricing a {
+		padding: 12px 25px;
+	}
+
+}
+
+
+@media only screen and (max-width: 767px) {
+	.pricing .row .col {
+		padding: 0 15px;
+		margin-bottom: 100px;
+	}
+
+	.pricing .row .col:last-child {
+		margin-bottom: 0;
+	}
+}
+
+
+
+/*--------------------------------------------------------------
+#7	testimonial
+--------------------------------------------------------------*/
+@media only screen and (max-width: 1199px) {
+	.testimonial figure + p {
+		padding: 0 22%;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.testimonial .before {
+		top: 170px;
+	}
+
+	.testimonial figure + p {
+		padding: 0 18%;
+	}
+}
+
+
+@media only screen and (max-width: 767px) {
+	.testimonial .before,
+	.testimonial .after {
+		display: none;
+	}
+
+	.testimonial figure + p {
+		padding: 0 5%;
+	}
+}
+
+
+
+/*--------------------------------------------------------------
+#8	contact
+--------------------------------------------------------------*/
+@media only screen and (max-width: 991px) {
+	.contact .col {
+		padding: 0 15px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.contact ul li:first-child,
+	.contact ul li:nth-child(2) {
+		width: 100%;
+		display: block;
+	}
+}
+
+
+
+/*--------------------------------------------------------------
+#9	footer
+--------------------------------------------------------------*/
+@media only screen and (max-width: 377px) {
+	footer p {
+		font-size: 12px;
+		line-height: 24px;
+		text-align: left;
+	}
+}
+
+
+
+
+/*--------------------------------------------------------------
+#10	some-of-my-work
+--------------------------------------------------------------*/
+@media only screen and (max-width: 1199px) {
+	.some-of-my-work .last-row .col {
+		padding: 0 15px;
+	}
+
+	.some-of-my-work .last-row .col {
+		margin-bottom: 50px;
+	}
+
+	.some-of-my-work .last-row .col:last-child {
+		margin-bottom: 0;
+	}
+}
+
+@media only screen and (max-width: 660px) {
+	.some-of-my-work .all-tabs ul {
+		width: 100%;
+	}
+
+	.some-of-my-work .tab-content {
+		position: relative;
+		top: 150px;
+	}
+}
+
+
+@media only screen and (max-width: 446px) {
+	.some-of-my-work .tab-content .col a {
+		left: -100%;
+	}
+}
+
+@media only screen and (max-width: 558px) {
+	.some-of-my-work .tab-content .col:hover a {
+		left: 29%;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.some-of-my-work .tab-content .col:hover a {
+		left: 27%;
+	}
+}
+
+@media only screen and (max-width: 351px) {
+	.some-of-my-work .tab-content .col:hover a {
+		left: 21%;
+	}
+}

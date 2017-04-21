@@ -1,0 +1,128 @@
+.section-heading h2:before {
+	background-color: #00aeef;
+}
+
+/*menu*/
+.menu__handle::before,
+.menu__handle::after,
+.menu__handle span {
+	background: #00aeef;
+}
+
+.morph-shape svg path {
+	stroke: #00aeef;
+	stroke-width: 5px;
+}
+
+
+/*about-me*/
+.about-me .row .col div:hover i {
+	background-color: #00aeef;
+}
+
+.about-me .row .col div:hover h3 {
+	color: #00aeef;
+}
+
+.about-me .download-hire a:hover {
+	box-shadow:  0 0 0 2px #00aeef;
+}
+
+.about-me .download-hire a:hover i {
+	color: #00aeef;
+}
+
+/*work-experience*/
+.work-experience .work-list h3:after,
+.education-diploma .work-list h3:after {
+	background-color: #00aeef;
+}
+
+.work-experience ul li:hover i,
+.education-diploma ul li:hover i {
+	background-color: #00aeef;
+}	
+
+/*previous-projects */
+.previous-projects i {
+	color: #00aeef;
+}
+
+.previous-projects .col:hover i {
+	background-color: #00aeef;
+	color: #fff;
+}
+
+.previous-projects .col:hover .icon {
+	border-color: #00aeef;
+}
+
+/*technical-skill*/
+.technical-skill .row i {
+	background-color: #00aeef;
+}
+
+/*some-of-my-work*/
+.some-of-my-work .all-tabs ul li.active a {
+	color: #00aeef;
+}
+
+
+/*pricing*/
+.pricing .price p {
+	color: #00aeef;
+}
+
+.pricing .thumbnail:hover .price {
+	background-color: #00aeef;
+}
+
+.pricing .thumbnail:hover a {
+	background-color: #00aeef;
+}
+
+.pricing .price .discount {
+	background: #00aeef;
+}
+
+/*testimonial*/
+.testimonial figure img {
+	border-color: #00aeef;
+}
+
+.testimonial .person span {
+	color: #00aeef;
+}
+
+.testimonial .active span {
+	background-color: #00aeef !important;
+}
+
+/*contact*/
+.contact ul li input[type="submit"]:hover {
+	background-color: #00aeef;
+	border-color: #00aeef;
+}
+
+
+/*footer*/
+footer ul li a:hover span {
+	background-color: #00aeef;
+}
+
+/*back to top*/
+a.back-to-top {
+	background-color: #00aeef;
+	background-color: rgba(0,174,239, 0.6);
+}
+
+
+
+
+
+
+
+
+
+
+
