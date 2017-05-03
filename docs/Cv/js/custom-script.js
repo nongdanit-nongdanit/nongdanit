@@ -468,7 +468,7 @@ function rotateImage() {
     currentPhoto.removeClass('current').addClass('previous');
     nextPhoto.css({'opacity': '0'}).addClass('current').animate({
         'opacity': '1'
-    }, 1000, function() {
+    }, 3000, function() {
         currentPhoto.removeClass('previous');
     });
 }
